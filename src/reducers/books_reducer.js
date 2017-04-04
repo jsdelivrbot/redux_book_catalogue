@@ -1,8 +1,8 @@
-export default function() {
+export default function(action) {
   return [
-    { title: 'React' },
-    { title: 'Ruby' },
-    { title: 'Python' },
-    { title: 'Elixer' },
+    { title: 'React', pages: 1000 },
+    { title: 'Ruby', pages: 10 },
+    { title: 'Python', pages: 100 },
+    { title: 'Elixer', pages: 15 },
   ]
 }
